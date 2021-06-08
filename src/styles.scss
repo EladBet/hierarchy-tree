@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+
+
+  .inner {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+ }
+
+.logout{
+  color: blue;
+  cursor: pointer;
+}
+
+.initials {
+  position: relative;
+  left: -35.5px;
+}
+
+.login {
+  width: 500px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.visible-on-parent-hover {
+  visibility: hidden !important;
+
+  *:hover > & {
+    visibility: visible !important;
+  }
+}
+
